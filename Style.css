@@ -1,0 +1,57 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+body{
+    background: #000;
+    font-family: "Montserret",sans-serif;
+}
+.container{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}
+.container h1{
+    text-transform: uppercase;
+    font-size: 60px;
+    margin: 0px;
+}
+.count{
+    margin: 40px;
+}
+.countd{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border: 2px solid;
+    margin: 0 30px;
+    font-size: 12px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.countd span{
+    display:block;
+    font-size: 26px;
+    margin-top: 14px;
+}
+span{
+    background-image: linear-gradient(to right,#33ccff,#00ff99 100%);
+     color: transparent;
+     -webkit-background-clip: text;
+     background-clip: text;
+} 
+.btn{
+    width: 140px;
+    margin-top: 30px;
+    height: 40px;
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,#33ccff,#00ff99 100%);
+}
